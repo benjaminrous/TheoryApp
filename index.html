@@ -9,7 +9,8 @@
 </head> 
 <body> 
 
-<div data-role="page">
+<!-- Home page -->
+<div data-role="page" id="home">
 
 	<div data-role="header">
 		<h1>Music Theory App</h1>
@@ -17,13 +18,74 @@
 
 	<div data-role="content">	
 		<ul data-role="listview" data-inset="true" data-filter="true">
-			<li><a href="#">Beat and Tempo</a></li>
-			<li><a href="#">Metre</a></li>
-			<li><a href="#">Time Signature</a></li>
+			<li><a href="#beatandtempo">Beat and Tempo</a></li>
+			<li><a href="#metre">Metre</a></li>
+			<li><a href="#timesignature">Time Signature</a></li>
 		</ul>		
 	</div><!-- /content -->
 
+	<div data-role="footer">
+		<h4>This is the bottom of every page. Is there any point to it?</h4>
+	</div><!-- /footer -->
+
 </div><!-- /page -->
+
+
+
+<!-- Beat and Tempo page -->
+<div data-role="page" id="beatandtempo">
+
+	<div data-role="header">
+		<h1>Beat and Tempo</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>This is some information about beat and tempo!</p>		
+		<p><a href="#home">Back to home page</a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>This is the bottom of every page. Is there any point to it?</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Metre page -->
+<div data-role="page" id="metre">
+
+	<div data-role="header">
+		<h1>Metre</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>This is some information about metre!</p>		
+		<p><a href="#home">Back to home page</a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>This is the bottom of every page. Is there any point to it?</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Time signature page -->
+<div data-role="page" id="beatandtempo">
+
+	<div data-role="header">
+		<h1>Time Signature</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>This is some information about time signatures!</p>		
+		<p><a href="#home">Back to home page</a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>This is the bottom of every page. Is there any point to it?</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
 
 </body>
 </html>
