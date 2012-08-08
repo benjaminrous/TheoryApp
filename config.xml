@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns		= "http://www.w3.org/ns/widgets"
+<widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.phonegap.getting.started"
-	version 	= "1.0.0">
+	id = "org.benjaminrous.musictheoryapp"
+	version = "0.0.1">
 
-	<name>PhoneGap: Getting Started</name>
+	<name>Music Theory App</name>
 
 	<description>
-		A template for getting started with PhoneGap development and build.phonegap.com
+		This is a test of how to create a phone app, with a view to creating a music theory app.
 	</description>
 
-	<author href="http://alunny.github.com"
-		email="andrew.lunny@nitobi.com">
-		Andrew Lunny
+	<author href="http://benjaminrous.org"
+		email="email@benjaminrous.org">
+		Benjamin Rous
 	</author>
 
 	<icon src="icon.png" gap:role="default" />
+	<gap:splash src="splash.png" />
 
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
