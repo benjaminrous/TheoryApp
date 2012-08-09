@@ -15,8 +15,8 @@
 		Benjamin Rous
 	</author>
 
-	<icon src="icon.png" gap:role="default" />
-	<gap:splash src="splash.png" />
+	<icon src="icon.png" gap:role="default" width="78" height="99" />
+	<gap:splash src="splash.png" width="159" height="166" />
 
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
